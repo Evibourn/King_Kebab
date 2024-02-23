@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King Kebab</title>
+
+    <!------ Google Fonts ------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Karla:wght@200;300;400;500&family=Montserrat+Alternates:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:wght@300;400;500&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+
+
+
+    <!-- Bootstrap CSS-->	
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!--External JS-->
+    <script src="script.js" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+
+
+    <!----External CSS----->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+    " rel="stylesheet">
+
+    <!-----FontAwsome------>
+    <script src="https://kit.fontawesome.com/9d9796826b.js" crossorigin="anonymous"></script>
+</head>
+
+
+
+
+
+
+<body>
+<!---- Bootstrap Script---->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+
+<!--Navbar-->
+<div>
+<nav class="navbar fixed-top">
+    <div class="container-fluid">
+      <a href="index.html" style="font-size: 160%;"><img src="images/Logo.jpeg" class="logo">King Kebab</a>
+
+      <a href="#shopping-cart" style="color: rgb(218, 189, 127); margin-right: 7%;">  <i  class="fa-solid fa-cart-shopping justify-content-end fa-xl" style="width: 60%;"></i></a>
+     
+    </div>
+  </nav>
+
+
+ <!--Filter Button-->
+<div class = "filter-btns">
+  <button type = "button" class = "filter-btn" id = "nou"><a href="#Kebab">Kebab</a></button>
+  <button type = "button" class = "filter-btn" id = "new"><a href="#Burger">Burger</a></button>
+  <button type = "button" class = "filter-btn" id = "office-wear"><a href="#cartofi fri">Cartofi Fri & Nugets</a></button>
+  <button type = "button" class = "filter-btn" id = "t-shirts"><a href="#Meniu kebab">Meniu Kebab</a> </button>
+  <button type = "button" class = "filter-btn" id = "offers"><a href="#Meniu burger">Meniu burger</a> </button>
+  <button type = "button" class = "filter-btn" id = "t-shirts"><a href="#hot-dog">Hot-dog/ Sandwich/Pita</a> </button>
+  <button type = "button" class = "filter-btn" id = "offers"><a href="#platouri">Platouri</a> </button>
+  <button type = "button" class = "filter-btn" id = "offers"><a href="#salate">Salate</a> </button>
+  <button type = "button" class = "filter-btn" id = "offers"><a href="#topicuri">Topicuri</a> </button>
+  <button type = "button" class = "filter-btn" id = "offers"><a href="#bauturi racoritoare">Băuturi răcoritoare</a> </button>
+  <button type = "button" class = "filter-btn" id = "offers"><a href="#bauturi calde">Băuturi calde</a> </button>
+  <button type = "button" class = "filter-btn" id = "offers"><a href="#cocktail">Cocktail</a> </button>
+  <button type = "button" class = "filter-btn" id = "offers"><a href="#cocktail cu alcool">Cocktail cu alcool</a> </button>
+  <button type = "button" class = "filter-btn" id = "offers"><a href="#bere">Bere</a> </button>
+  <button type = "button" class = "filter-btn" id = "offers"><a href="#bere la halba">Bere la halbă</a> </button>
+  <button type = "button" class = "filter-btn" id = "offers"><a href="#chips">Chips</a> </button>
+</div>
+
+
+<!----------------------------------------------------------------------------------->
+ <img src="images/wallpaper 1.jpg" class="img_logo">
+<!----------------------------------------------------------------------------------->
+
+<!----------------------------------------------------------------------------------->
+<img src="images/steps-line.png" style="width: 100%; height: 100%; overflow: hidden; margin-top: 3%; margin-bottom: -5%;">
+<!----------------------------------------------------------------------------------->
+
+<a id="Kebab"></a>
+<h3 style="text-decoration: underline;text-align: center; margin-bottom: 0.2%; color:#DCDCDC; margin-top: 2%; margin-left: 10%;">Kebab</h3>
+
+<section id="product-cards">
+  <div class="container-fluid">
+    <div class="container">
+       <div class="scroller">
+          <div class="col filter-item all new" >
+            <div class="card h-100">
+              <img src="images/Kebab pui.jpeg" class="card-img-top shop-item-image" alt="...">
+              <div class="card-body"><a id="Burger"></a>
+                <h5 class="card-title shop-item-title">Kebab pui</h5>
+                <p class="card-text shop-item-price">  60 MDL </p>
+                <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col filter-item all new" >
+            <div class="card h-100">
+              <img src="images/Kebab crispy.jpeg"  class="card-img-top shop-item-image" alt="...">
+              <div class="card-body">
+                <h5 class="card-title shop-item-title">Kebab crispy</h5>
+                <p class="card-text shop-item-price">  65 MDL </p>
+                <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col filter-item all new" >
+            <div class="card h-100">
+              <img src="images/Kebab vită.jpeg" class="card-img-top shop-item-image" alt="...">
+              <div class="card-body">
+                <h5 class="card-title shop-item-title">Kebab vită</h5>
+                <p class="card-text shop-item-price">  70 MDL </p>
+                <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+              </div>
+            </div>
+         </div>
+      </div>
+    </div> 
+  </div>
+</section>
+
+
+<h3 style="text-decoration: underline;text-align: center;  margin-bottom: 0.7%; color:#DCDCDC; margin-left: 10%;">Burger</h3>
+
+<section id="product-cards">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="scroller">
+       <div class="col filter-item all new" >
+        <div class="card h-100">
+          <img src="images/Burger pui.jpeg" class="card-img-top shop-item-image" alt="...">
+          <div class="card-body"><a id="cartofi fri"></a>
+            <h5 class="card-title shop-item-title">Burger pui</h5>
+            <p class="card-text shop-item-price">  55 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100">
+          <img src="images/Burger crispy 60.jpeg" class="card-img-top shop-item-image" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Burger crispy</h5>
+            <p class="card-text shop-item-price">  60 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+        <div class="col filter-item all new" >
+          <div class="card h-100">
+            <img src="images/Burger vita 65.jpeg" class="card-img-top shop-item-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title shop-item-title">Burger vită</h5>
+              <p class="card-text shop-item-price">  65 MDL </p>
+              <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<h3 style="text-decoration: underline;text-align: center;  margin-bottom: 0.7%; color:#DCDCDC; margin-left: 10%;">Cartofi fri & nuggets</h3>
+
+<section id="product-cards">
+
+  <a id="cartofi fri"></a>
+
+  <div class="container-fluid">
+    <div class="container">
+      <div class="scroller">
+       <div class="col filter-item all new" >
+        <div class="card h-100">
+          <img src="images/cartofi fri 35.jpeg" class="card-img-top shop-item-image" alt="...">
+          <div class="card-body"><a id="Meniu kebab"></a>
+            <h5 class="card-title shop-item-title">Cartofi fri</h5>
+            <p class="card-text shop-item-price">  35 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100">
+          <img src="images/nuggets 65.jpeg" class="card-img-top shop-item-image" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Nuggets</h5>
+            <p class="card-text shop-item-price">  65 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+        <div class="col filter-item all new" >
+          <div class="card h-100">
+            <img src="images/aripioare 75.jpeg" class="card-img-top shop-item-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title shop-item-title">Aripioare</h5>
+              <p class="card-text shop-item-price">  75 MDL </p>
+              <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<h3 style="text-decoration: underline;text-align: center;  margin-bottom: 0.7%; color:#DCDCDC; margin-left: 10%;">Meniu Kebab</h3>
+
+<section id="product-cards">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="scroller">
+       <div class="col filter-item all new" >
+        <div class="card h-100">
+          <img src= "images/meniu kebab pui 100.jpeg" style="width:100%" class="card-img-top shop-item-image" alt="...">
+          <div class="card-body"><a id="Meniu burger"></a>
+            <h5 class="card-title shop-item-title">Meniu kebab pui</h5>
+            <p class="card-text shop-item-price">  100 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100">
+          <img src="images/meniu kebab crispy 105.jpeg" class="card-img-top shop-item-image" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Meniu kebab crispy</h5>
+            <p class="card-text shop-item-price">  105 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+        <div class="col filter-item all new" >
+          <div class="card h-100">
+            <img src="images/meniu kebab vita 110.jpeg"  class="card-img-top shop-item-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title shop-item-title">Meniu kebab vită</h5>
+              <p class="card-text shop-item-price">  110 MDL </p>
+              <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<h3 style="text-decoration: underline;text-align: center;  margin-bottom: 0.7%; color:#DCDCDC; margin-left: 10%;">Meniu Burger</h3>
+
+<section id="product-cards">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="scroller">
+       <div class="col filter-item all new" >
+        <div class="card h-100">
+          <img src= "images/meniu burger pui 95.jpeg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body"><a id="hot-dog"></a>
+            <h5 class="card-title shop-item-title">Meniu burger pui</h5>
+            <p class="card-text shop-item-price">  95 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100">
+          <img src="images/meniu burger crispy 100.jpeg" class="card-img-top shop-item-image" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Meniu burger crispy</h5>
+            <p class="card-text shop-item-price">  100 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+        <div class="col filter-item all new" >
+          <div class="card h-100">
+            <img src="images/meniu burger vita 105.jpeg"  class="card-img-top shop-item-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title shop-item-title">Meniu burger vită</h5>
+              <p class="card-text shop-item-price">  105 MDL </p>
+              <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<h3 style="text-decoration: underline;text-align: center;  margin-bottom: 0.7%; color:#DCDCDC; margin-left: 10%;">Hot-dog/Sandwich/Pita</h3>
+
+<section id="product-cards">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="scroller">
+       <div class="col filter-item all new" >
+        <div class="card h-100">
+          <img src= "images/Hot-dog 45.jpeg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body"><a id="platouri"></a>
+            <h5 class="card-title shop-item-title">Hot-dog</h5>
+            <p class="card-text shop-item-price">  45 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100">
+          <img src="images/sandwich 45.jpeg" class="card-img-top shop-item-image" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Sandwich</h5>
+            <p class="card-text shop-item-price">  45 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+        <div class="col filter-item all new" >
+          <div class="card h-100">
+            <img src="images/pita 70.jpeg"  class="card-img-top shop-item-image" alt="...">
+            <div class="card-body">
+              <h5 class="card-title shop-item-title">Pita</h5>
+              <p class="card-text shop-item-price">  70 MDL </p>
+              <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+            </div>
+          </div>
+        </div>
+       </div>
+    </div>
+  </div>
+</section>
+
+
+<h3 style="text-decoration: underline;text-align: center;  margin-bottom: 0.7%; color:#DCDCDC; margin-left: 10%;">Platouri</h3>
+
+<section id="product-cards">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="scroller">
+       <div class="col filter-item all new" >
+        <div class="card h-100" style="width: 65%">
+          <img src= "images/platou creveti 450.jpeg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body"><a id="salate"></a>
+            <h5 class="card-title shop-item-title">Platou creveți</h5>
+            <p class="card-text shop-item-price">  450 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+        <div class="col filter-item all new" >
+          <div class="card h-100" style="width: 65%; margin-left: -35%;">
+            <img src= "images//Platou frigarui 85.jpeg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title shop-item-title">Platou frigarui</h5>
+              <p class="card-text shop-item-price">  85 MDL </p>
+              <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+            </div>
+          </div>
+        </div>
+       </div>
+    </div>
+  </div>
+</section>
+
+
+<h3 style="text-decoration: underline;text-align: center;  margin-bottom: 0.7%; color:#DCDCDC; margin-left: 10%;">Salate</h3>
+
+<section id="product-cards">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="scroller">
+        <div class="col filter-item all new" >
+          <div class="card h-100" style="width: 32%">
+            <img src= "images/Salată Cezar 50.jpeg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+            <div class="card-body"><a id="topicuri"></a>
+              <h5 class="card-title shop-item-title">Salată Cezar</h5>
+              <p class="card-text shop-item-price"> 50 MDL </p>
+              <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+            </div>
+          </div>
+        </div>
+       </div>
+    </div>
+  </div>
+</section>
+
+
+<h3 style="text-decoration: underline;text-align: center;  margin-bottom: 0.7%; color:#DCDCDC; margin-left: 10%;">Topicuri</h3>
+
+<section id="product-cards">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="scroller">
+       <div class="col filter-item all new" >
+        <div class="card h-100"  >
+          <img src= "images/Logo.jpg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Carne pui</h5>
+            <p class="card-text shop-item-price"> 15 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100"  >
+          <img src= "images/Logo.jpg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Carne vită</h5>
+            <p class="card-text shop-item-price"> 15 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100"  >
+          <img src= "images/Logo.jpg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Cașcaval</h5>
+            <p class="card-text shop-item-price"> 15 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100"  >
+          <img src= "images/Logo.jpg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Ciuperci</h5>
+            <p class="card-text shop-item-price"> 10 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100"  >
+          <img src= "images/Logo.jpg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Sos iute /ardei iute</h5>
+            <p class="card-text shop-item-price"> 10 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100"  >
+          <img src= "images/Logo.jpg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Sos ketchup</h5>
+            <p class="card-text shop-item-price"> 10 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+       <div class="card h-100" >
+          <img src= "images/Logo.jpg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Sos usturoi</h5>
+            <p class="card-text shop-item-price"> 15 MDL </p><a id="bauturi racoritoare"></a>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<h3 style="text-decoration: underline;text-align: center;  margin-bottom: 0.7%; color:#DCDCDC; margin-left: 10%;">Băuturi răcoritoare</h3>
+
+<section id="product-cards">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="scroller">
+       <div class="col filter-item all new" >
+        <div class="card h-100"  >
+          <img src= "images/om carbogazoasa.png" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title" style="font-size: 102%;" >Apă minerală carbogazificată</h5>
+            <p class="card-text shop-item-price"> 15 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100"  >
+          <img src= "images/om potabila.png" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Apă plată</h5>
+            <p class="card-text shop-item-price"> 15 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100"  >
+          <img src= "images/capy.png" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Capy</h5>
+            <p class="card-text shop-item-price"> 20 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100"  >
+          <img src= "images/fuzetea.png" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Fuzetea</h5>
+            <p class="card-text shop-item-price"> 20 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100" >
+          <img src= "images/sprite.png" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Sprite</h5>
+            <p class="card-text shop-item-price"> 20 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100" >
+          <img src= "images/fanta.png" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Fanta</h5>
+            <p class="card-text shop-item-price"> 20 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+          <div class="col filter-item all new" >
+            <div class="card h-100" >
+              <img src= "images/coca-cola.jpg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title shop-item-title">Coca-Cola</h5>
+                <p class="card-text shop-item-price"> 20 MDL </p><a id="bauturi calde"></a>
+                <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+              </div>
+            </div>
+          </div>
+       </div>
+    </div>
+  </div>
+</section>
+
+<h3 style="text-decoration: underline;text-align: center;  margin-bottom: 0.7%; color:#DCDCDC; margin-left: 10%;">Băuturi calde</h3>
+
+<section id="product-cards">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="scroller">
+       <div class="col filter-item all new" >
+        <div class="card h-100"  >
+          <img src= "images/Logo.jpg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body"><a id="cocktail"></a>
+            <h5 class="card-title shop-item-title">Espresso</h5>
+            <p class="card-text shop-item-price"> 15 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100"  >
+          <img src= "images/Logo.jpg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Americano</h5>
+            <p class="card-text shop-item-price"> 15 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100"  >
+          <img src= "images/Logo.jpg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Capucino</h5>
+            <p class="card-text shop-item-price"> 15 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100"  >
+          <img src= "images/Logo.jpg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Latte</h5>
+            <p class="card-text shop-item-price"> 15 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100"  >
+          <img src= "images/Logo.jpg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Ceai în asortiment</h5>
+            <p class="card-text shop-item-price"> 10 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+       </div>
+    </div>
+  </div>
+</section>
+
+
+<h3 style="text-decoration: underline;text-align: center;  margin-bottom: 0.7%; color:#DCDCDC; margin-left: 10%;">Cocktail</h3>
+
+<section id="product-cards">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="scroller">
+       <div class="col filter-item all new" >
+        <div class="card h-100"  >
+          <img src= "images/limonada portocala 40.jpeg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body"><a id="cocktail cu alcool"></a>
+            <h5 class="card-title shop-item-title">Limonadă portocală</h5>
+            <p class="card-text shop-item-price"> 40 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100"  >
+          <img src= "images/mojito classic 40.jpeg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Mojito classic</h5>
+            <p class="card-text shop-item-price"> 40 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+        <div class="col filter-item all new" >
+          <div class="card h-100"  >
+            <img src= "images/mojito capsuna 45.jpeg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title shop-item-title">Mojito căpșună</h5>
+              <p class="card-text shop-item-price"> 45 MDL </p>
+              <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<h3 style="text-decoration: underline;text-align: center;  margin-bottom: 0.7%; color:#DCDCDC; margin-left: 10%;">Cocktail cu alcool</h3>
+
+<section id="product-cards">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="scroller">
+       <div class="col filter-item all new"   >
+        <div class="card h-100" style="width: 65%">
+          <img src= "images/mojito classic cu alcool 60.jpeg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body"><a id="bere"></a>
+            <h5 class="card-title shop-item-title">Mojito classic cu alcool</h5>
+            <p class="card-text shop-item-price"> 60 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+          <div class="col filter-item all new"   >
+            <div class="card h-100" style="width: 65%; margin-left: -35%;">
+              <img src= "images/mojito cu capsuna si alcool 65.jpeg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title shop-item-title">Mojito cu căpșună și alcool</h5>
+                <p class="card-text shop-item-price"> 65 MDL </p>
+                <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+              </div>
+            </div>
+          </div>
+       </div>
+    </div>
+  </div>
+</section>
+
+
+<h3 style="text-decoration: underline;text-align: center;  margin-bottom: 0.7%; color:#DCDCDC;  margin-left: 10%;">Bere</h3>
+
+<section id="product-cards">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="scroller">
+        <div class="col filter-item all new" >
+          <div class="card h-100"  >
+            <img src= "images/timisoreana.png" style="width:100%" class="shop-item-image card-img-top" alt="...">
+            <div class="card-body"><a id="bere la halba"></a>
+                <h5 class="card-title shop-item-title">Timișoreana</h5>
+                <p class="card-text shop-item-price"> 25 MDL </p>
+                <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100"  >
+          <img src= "images/efes.png" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Efes</h5>
+            <p class="card-text shop-item-price"> 30 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100"  >
+          <img src= "images/kozel.png" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body">
+              <h5 class="card-title shop-item-title">Kozel</h5>
+              <p class="card-text shop-item-price"> 30 MDL </p>
+              <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100"  >
+          <img src= "images/corona extra.jpg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body">
+              <h5 class="card-title shop-item-title">Corona extra</h5>
+              <p class="card-text shop-item-price"> 45 MDL </p>
+              <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100"  >
+          <img src= "images/efes fara alcool.jpeg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body">
+              <h5 class="card-title shop-item-title">Efes fără alcool</h5>
+              <p class="card-text shop-item-price"> 25 MDL </p>
+              <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+          <div class="col filter-item all new" >
+            <div class="card h-100"  >
+              <img src= "images/festival.png" style="width:100%" class="shop-item-image card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title shop-item-title">Festival</h5>
+                <p class="card-text shop-item-price"> 25 MDL </p>
+                <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+              </div>
+            </div>
+          </div>
+       </div>
+    </div>
+  </div>
+</section>
+
+
+<h3 style="text-decoration: underline;text-align: center;  margin-bottom: 0.7%; color:#DCDCDC;  margin-left: 10%;">Bere la halbă</h3>
+
+<section id="product-cards">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="scroller">
+        <div class="col filter-item all new" >
+         <div class="card h-100"  >
+           <img src= "images/Hopfenbrau.png" style="width:100%" class="shop-item-image card-img-top" alt="...">
+            <div class="card-body"><a id="chips"></a>
+             <h5 class="card-title shop-item-title">HophenBrau</h5>
+             <p class="card-text shop-item-price"> 25 MDL </p>
+             <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100"  >
+          <img src= "images/kvartals.png" style="width:100%" class="shop-item-image card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title shop-item-title">Kvartals</h5>
+            <p class="card-text shop-item-price"> 25 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col filter-item all new" >
+        <div class="card h-100"  >
+          <img src="images/kvas.png" style="width:100%" class="shop-item-image card-img-top" alt="...">
+           <div class="card-body">
+            <h5 class="card-title shop-item-title">Kvas</h5>
+            <p class="card-text shop-item-price"> 15 MDL </p>
+            <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+           </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<h3 style="text-decoration: underline;text-align: center;  margin-bottom: 0.7%; color:#DCDCDC;  margin-left: 10%;">Chips</h3>
+
+<section id="product-cards">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="scroller">
+        <div class="col filter-item all new" >
+          <div class="card h-100" style="width: 48.5%">
+            <img src= "images/lays 45.jpeg" style="width:100%" class="shop-item-image card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title shop-item-title">Lays</h5>
+              <p class="card-text shop-item-price"> 45 MDL </p>
+              <button type="button" style="width: 100%;" class="btn btn-warning mt-auto shop-item-button"><i class="fa-solid fa-cart-shopping " style="margin-right: 4%;"></i>Adaugă în coș</button>
+            </div>
+          </div>
+        </div>
+       </div>
+    </div>
+  </div>
+</section>
+
+
+<!----------------------------------------------------------------------------------->
+<img src="images/steps-line.png" style="width: 100%; height: 100%; overflow: hidden; margin-top: 3%; margin-bottom: -5%;">
+<!----------------------------------------------------------------------------------->
+
+
+<!--Shopping Cart-->
+<section class="container content-section" id="shopping-cart" style="margin-left: 10%;">
+  
+  <h3 style="text-decoration: underline;text-align: center; margin-bottom: 7%; color: #DCDCDC">Coș</h3>
+ 
+ <table class="table table-hover table-cart" style="color: #DCDCDC">
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Preț</th>
+      <th>Cantitate</th>
+    </tr>
+  </thead>
+  <tbody class="cart-items" style="color: #DCDCDC">  </tbody>
+</table>
+
+    <div class="cart-total" style="color: #DCDCDC"> 
+      <strong class="cart-total-title">Total</strong>
+      <span  class="cart-total-price" style="text-align: right;">0 MDL</span>
+    </div>
+ 
+
+    <div class="btn-purchase" style="margin-top: 10%;">
+     <a src="paiment.html"> <button type="button"  class="btn btn-dark btn-purchase "><i class="fa-solid fa-cart-shopping " style="margin-right: 6%;"></i>COMANDĂ</button></a>
+    </div>
+
+
+    
+
+</section>
+
+ 
+<!--Footer-->
+<section id="footer" style="margin-left: 10%;">
+  <div class=" text-center">
+    <div class="card-bod">
+      <a href="https://www.instagram.com/kingkebab_carpineni/"><h3 class="card-title">Contactact us on Instagram </h3></a>
+      <p style="color: #DCDCDC; margin-top: 0.5%;">Vă mulțumim !!!</p>
+    </div>
+  </div>
+</section>
+
+
+<!--External JS-->
+<script src="script.js"></script>
+
+
+</body>
+</html>
